@@ -1,0 +1,29 @@
+{
+  "name": "Portfolio-Website",
+  "version": "0.1.0",
+  "description": "Eric Tsois' Portfolio Site",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/denistsoi/Portfolio-Website.git"
+  },
+  "keywords": [
+    "Eric",
+    "Tsoi's",
+    "Portfolio",
+    "Site"
+  ],
+  "author": "Denis Tsoi",
+  "license": "©2014 Eric Tsoi",
+  "bugs": {
+    "url": "https://github.com/denistsoi/Portfolio-Website/issues"
+  },
+  "homepage": "https://github.com/denistsoi/Portfolio-Website",
+  "dependencies": {
+    "ejs": "^1.0.0",
+    "express": "^4.8.6"
+  }
+}
