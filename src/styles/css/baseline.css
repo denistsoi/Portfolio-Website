@@ -1,38 +1,64 @@
+body {
+  position: relative; }
+
+body:after {
+  position: absolute;
+  width: auto;
+  height: auto;
+  z-index: 9999;
+  content: '';
+  display: block;
+  pointer-events: none;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  background: url(../image/image.png) repeat top left; }
+
+body:active:after {
+  display: none; }
+
 h1, h2, h3, h4, h5, h6, p, aside {
   margin: 0; }
 
 body {
-  font-size: 24px;
-  line-height: 18px; }
+  font-size: 24px; }
 
 .main {
-  width: 30%; }
+  width: 100%; }
 
 h1 {
-  padding: 7px 0 5px 0;
-  line-height: 48px; }
+  padding: 1px 0 11px 0;
+  line-height: 1.25em;
+  font-size: 2em; }
 
 h2 {
   padding: 5px 0 7px 0;
-  line-height: 36px; }
+  line-height: 1em;
+  font-size: 1.5em; }
 
 h3 {
-  padding: 7px 0 5px 0;
-  line-height: 36px; }
+  padding: 8px 0 4px 0;
+  line-height: 1.2em;
+  font-size: 1.25em; }
 
 h4 {
-  padding: 4px 0 8px 0;
-  line-height: 24px;
+  padding: 9px 0 3px 0;
+  line-height: 1.5em;
+  font-size: 1em;
   color: red; }
 
 h5 {
-  padding: 7px 0 5px 0;
-  line-height: 20px; }
+  padding: 5px 0 7px 0;
+  font-size: 0.83em;
+  line-height: 24px; }
 
 h6 {
-  padding: 7px 0 5px 0;
-  line-height: 20px; }
+  padding: 5px 0 7px 0;
+  line-height: 24px;
+  font-size: 0.75em; }
 
 p {
-  padding: 8px 0 16px 0;
-  line-height: 24px; }
+  padding: 8px 0 4px 0;
+  line-height: 18px;
+  font-size: 0.75em; }
