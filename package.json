@@ -24,8 +24,13 @@
   "homepage": "https://github.com/denistsoi/Portfolio-Website",
   "dependencies": {
     "ejs": "^1.0.0",
-    "express": "^4.8.6",
+    "express": "^4.8.6"
+  },
+  "devDependencies": {
     "gulp": "^3.8.7",
-    "gulp-sass": "^0.7.3"
+    "gulp-clean": "^0.3.1",
+    "gulp-connect": "^2.0.6",
+    "gulp-sass": "^0.7.3",
+    "gulp-watch": "^0.7.0"
   }
 }
