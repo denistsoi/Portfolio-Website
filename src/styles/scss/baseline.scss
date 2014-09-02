@@ -2,6 +2,48 @@ h1, h2, h3, h4, h5, h6, p, aside {
   margin: 0;
 }
 
-// h1 {
-//   padding: 0;
-// }
+body {
+  font-size: 24px;
+  line-height: 18px;
+}
+
+.main {
+  width: 30%;
+}
+
+h1 {
+  padding: 7px 0 5px 0;
+  line-height: 48px;
+}
+
+h2 {
+  padding: 5px 0 7px 0;
+  line-height: 36px;
+}
+
+h3 {
+  padding: 7px 0 5px 0;
+  line-height: 36px;
+}
+
+h4 {
+  padding: 4px 0 8px 0;
+  line-height: 24px; 
+  color: red;
+}
+
+h5 {
+  padding: 7px 0 5px 0; 
+  line-height: 20px;
+}
+
+h6 {
+  padding: 7px 0 5px 0; 
+  line-height: 20px;
+}
+
+p {
+  padding: 8px 0 16px 0;
+  line-height: 24px;
+}
+

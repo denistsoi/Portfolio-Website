@@ -36,5 +36,6 @@ gulp.task('sass', function() {
   gulp.src(src.scss+"*.scss")
     .pipe(sass())
     .pipe(gulp.dest(src.css))
+    .pipe(gulp.dest(build.css))
     .pipe(connect.reload());
 });
