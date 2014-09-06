@@ -1,0 +1,8 @@
+<nav class="sidebar">
+  <h1><%= site.title %></h1>
+  <ul>
+    <% for (var key in site.sidebarOptions) { %>
+      <li><%= site.sidebarOptions[key].name %></li>
+    <% } %>    
+  </ul>
+</nav>

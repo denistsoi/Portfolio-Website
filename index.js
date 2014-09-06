@@ -10,17 +10,39 @@ app.engine('ejs', require('ejs').renderFile);
 
 app.use(express.static(__dirname + '/public'));
 
-app.get('/', function(req,res) {
-  res.render('index', { 
+var site = {
+  title: "Eric Chi Wai Tsoi",
+  styles: {
     normalize: "./css/normalize.css",
     reset: "./css/reset.css",
     baseline: "./css/baseline.css",
-    style: "./css/style.css", 
+    style: "./css/style.css"
+  },
+  sidebarOptions: [
+    {name: "Portfolio"},
+    {name: "About"},
+    {name: "Blog"},
+    {name: "Contact"}
+  ]
+};
 
+
+
+app.get('/', function(req,res) {
+  res.render('index', { 
+    site: site
   });
 });
 
-//     amend: "./css/amend.css"
+app.get('/guide', function(req, res) {
+  res.render('guide', { 
+    site: site    
+  });
+})
+
+
+// Router handles 
+
 
 server.listen(process.env.PORT || 3000);
 

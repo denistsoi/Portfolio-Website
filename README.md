@@ -24,3 +24,14 @@
 
 ### Usage 
 
+    Create JSON with the following structure
+
+    <!-- {
+        title: "title",
+        type: "article",
+        "summary": "blh blah blah",
+        "text content": "blah blah * 3"
+        attachments: {
+            
+        }
+    } -->
