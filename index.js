@@ -18,12 +18,12 @@ var site = {
     baseline: "./css/baseline.css",
     style: "./css/style.css"
   },
-  sidebarOptions: [
+  sidebarOptions: {
     {name: "Portfolio"},
     {name: "About"},
     {name: "Blog"},
     {name: "Contact"}
-  ]
+  }
 };
 
 
